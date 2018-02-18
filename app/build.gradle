@@ -1,9 +1,10 @@
-apply plugin: 'com.android.application'
-
+apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+project.archivesBaseName = 'knotes-common'
+group 'com.github.khizarkhan'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "com.example.android.knotes.common"
         minSdkVersion 15
         targetSdkVersion 26
         versionCode 1
